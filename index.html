@@ -1,4 +1,4 @@
-so
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +12,8 @@ so
 <style>
 
     body {
-        font-family: Arial, sans-serif;
-        
+        font-family:times new Roman;
+        border:2px solid #000000
         background: #f4f4f4;
     }
 
@@ -21,31 +21,19 @@ so
         width: 90%;
         margin: auto;
     }
-    .lists-container {
-  display: flex;
+    .grid-container {
+  display: grid;
 }
-
-.education-col {
-  flex: 1;
-  padding-right: 16px;
-  border-right: 1px solid #E0E0E0; /* This is the divider */
-}
-
-.skills-col {
-  flex: 1;
-  padding-left: 16px;
-}
-
     .row {
         background: white;
         margin: 0;
         padding: 10px;
         
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        
     }
 
-    /* FIRST ROW */
+   
     .profile {
         display: flex;
         align-items: center;
@@ -58,30 +46,19 @@ so
         margin-right: 20px;
         object-fit: cover;
     }
-
-    /* SECOND ROW */
-    .two-columns {
-        display: flex;
-        gap: 30px;
-    }
-
-    .column {
-        flex: 1;
-    }
-
-    ul, ol {
+     .ul, ol {
         padding-left: 20px;
     }
 
-    /* THIRD ROW - TABLE */
+    
     table {
         width: 100%;
-        border-collapse: collapse;
+        border-collapse: 1px collapse;
         text-align: center;
     }
 
     table th {
-        background: #007BFF;
+        background: #005f05;
         color: white;
         padding: 10px;
     }
@@ -91,11 +68,10 @@ so
         border: 1px solid #ddd;
     }
 
-    table tr:nth-child(even) {
-        background: #f9f9f9;
-    }
+  
+    
 
-    /* LAST ROW - CONTACT */
+    
     .contact {
         display: flex;
         justify-content: space-around;
